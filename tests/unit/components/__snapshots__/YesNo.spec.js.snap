@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YesNo.vue should match snapshot 1`] = `
+<div class="bg-gray-800 h-screen">
+  <div class="grid grid-cols-1">
+    <div class="w-full flex justify-center">
+      <div class="mt-2">
+        <div class="rounded-md shadow-sm ring-1 ring-inset ring-gray-300 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-600 sm:max-w-md"><input type="text" class="block border-0 bg-transparent py-1.5 pl-1 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6" placeholder="Your question here"></div><button data-testid="buttonGetAnswer" class="bg-gray-400 rounded-full p-1 px-10 my-2">Ask</button>
+      </div>
+    </div>
+  </div>
+  <h2 data-testid="question" style="display: none;"></h2>
+  <!--v-if-->
+  <div class="flex justify-center p-0"><img src="" alt="yes-no-img" class="w-1/3 h-1/3" style="display: none;"></div>
+</div>
+`;
